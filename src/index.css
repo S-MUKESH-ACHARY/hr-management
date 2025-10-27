@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Ensure app fills viewport */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* App theme tweaks */
+@theme {
+  --color-brand: #c026d3; /* fuchsia-600 */
+}
